@@ -67,6 +67,7 @@
             this.buttonClear.TabIndex = 1;
             this.buttonClear.Text = "С";
             this.buttonClear.UseVisualStyleBackColor = true;
+            this.buttonClear.Click += new System.EventHandler(this.buttonClear_Click);
             // 
             // buttonBackspace
             // 
@@ -76,6 +77,7 @@
             this.buttonBackspace.TabIndex = 1;
             this.buttonBackspace.Text = "<---";
             this.buttonBackspace.UseVisualStyleBackColor = true;
+            this.buttonBackspace.Click += new System.EventHandler(this.buttonBackspace_Click);
             // 
             // buttonSign
             // 
@@ -85,6 +87,7 @@
             this.buttonSign.TabIndex = 1;
             this.buttonSign.Text = "+/-";
             this.buttonSign.UseVisualStyleBackColor = true;
+            this.buttonSign.Click += new System.EventHandler(this.buttonSign_Click);
             // 
             // buttonAdd
             // 
@@ -94,6 +97,7 @@
             this.buttonAdd.TabIndex = 1;
             this.buttonAdd.Text = "+";
             this.buttonAdd.UseVisualStyleBackColor = true;
+            this.buttonAdd.Click += new System.EventHandler(this.buttonAdd_Click);
             // 
             // button7
             // 
@@ -171,6 +175,7 @@
             this.buttonDot.TabIndex = 1;
             this.buttonDot.Text = ".";
             this.buttonDot.UseVisualStyleBackColor = true;
+            this.buttonDot.Click += new System.EventHandler(this.buttonDot_Click);
             // 
             // button9
             // 
@@ -209,6 +214,7 @@
             this.buttonSub.TabIndex = 1;
             this.buttonSub.Text = "--";
             this.buttonSub.UseVisualStyleBackColor = true;
+            this.buttonSub.Click += new System.EventHandler(this.buttonSub_Click);
             // 
             // buttonMul
             // 
@@ -218,6 +224,7 @@
             this.buttonMul.TabIndex = 1;
             this.buttonMul.Text = "*";
             this.buttonMul.UseVisualStyleBackColor = true;
+            this.buttonMul.Click += new System.EventHandler(this.buttonMul_Click);
             // 
             // buttonDiv
             // 
@@ -227,6 +234,7 @@
             this.buttonDiv.TabIndex = 1;
             this.buttonDiv.Text = "/";
             this.buttonDiv.UseVisualStyleBackColor = true;
+            this.buttonDiv.Click += new System.EventHandler(this.buttonDiv_Click);
             // 
             // buttonEqual
             // 
@@ -236,6 +244,7 @@
             this.buttonEqual.TabIndex = 1;
             this.buttonEqual.Text = "=";
             this.buttonEqual.UseVisualStyleBackColor = true;
+            this.buttonEqual.Click += new System.EventHandler(this.buttonEqual_Click);
             // 
             // label1
             // 
